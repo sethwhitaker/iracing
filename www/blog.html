@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog | Iracing</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Bootstrap theme -->
+    <!-- <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/theme.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../dist/index.html"><img src="/assets/img/header_logo_small.png"></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <!-- you can exclude pages using {{#isnt}} helper: {{#isnt data.title 'Blog'}} -->
+       
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-hover="dropdown">Series <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Seasons</li>
+            <li><a href="#">Curent Seasons</a></li>
+            <li><a href="#">Past Seasons</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Events</li>
+            <li><a href="#">Results</a></li>
+            <li><a href="#">Watch/Ghost/Crew/Spot</a></li>
+            <li><a href="#">Replays</a></li>
+            <li><a href="#">Season Calendar</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-hover="dropdown">Hosted <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Races</li>
+            <li><a href="">Join a Race</a></li>
+            <li><a href="">Host a Race</a></li>
+            <li><a href="">Hosted Results</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Tournaments</li>
+            <li><a href="">Host a Tournament Race</a></li>
+            <li><a href="">Tournament Results</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Leagues</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-hover="dropdown">Cars & Tracks <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Cars</li>
+            <li><a href="#">Oval Cars</a></li>
+            <li><a href="#">Road Cars</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Tracks</li>
+            <li><a href="#">Tracks</a></li>
+            <li><a href="#">Tech Tracks</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-hover="dropdown">myRacing <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Racer Profile</li>
+            <li><a href="#">myProfile</a></li>
+            <li><a href="#">Awards</a></li>
+            <li><a href="#">Certificates</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Stats</li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Drivers</a></li>
+            <li><a href="#">Regional</a></li>
+            <li><a href="#">World Records</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Friends</li>
+            <li><a href="#">myRacers</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Customize</li>
+            <li><a href="#">Customize Car(s)</a></li>
+            <li><a href="#">Customize Helmet</a></li>
+            <li><a href="#">Customize Suit</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Forum</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="http://google.com" class="dropdown-toggle" data-hover="dropdown">Account & Support <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Account</li>
+            <li><a href=""><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-credit-card"></span> Account Recharge</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-shopping-cart"></span> View Cart</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-tags"></span> Promotions</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Support</li>
+            <li><a href=""><span class="glyphicon glyphicon-question-sign"></span> Support</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-info-sign"></span> FAQs</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-exclamation-sign"></span> File Protest</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-file"></span> Documents & Tools</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
+            <li class="divider"></li>
+            <li><a href=""><span class="glyphicon glyphicon-off"></span> Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+
+    <div class="container" role="main">
+
+      
+<h1>Posts</h1>
+
+  <h1 id="iracing">iracing</h1>
+<blockquote>
+<p>The best project ever..</p>
+</blockquote>
+<h2 id="-assemble-http-assemble-io-"><a href="http://assemble.io/">Assemble</a></h2>
+<p>Assemble is a component and static site generator that makes it dead simple to build modular sites, documentation and components from reusable templates and data.</p>
+<ul>
+<li>Documentation</li>
+<li>Plugins - Plugins extend the core functionality of Assemble.</li>
+<li>Helpers - Documentation for the helpers in the <a href="http://github.com/assemble/handlebars-helpers">handlebars-helpers</a> library.</li>
+</ul>
+<h2 id="contributing">Contributing</h2>
+<p>All contributions are welcome! The simplest way to show your support for this project is to <strong>&quot;star&quot; it</strong>. Please see <a href="http://assemble.io/contributing">Contributing to Assemble</a> for more information.</p>
+<h2 id="release-history">Release History</h2>
+<ul>
+<li>2014-07-26   v0.1.0   Generated by the <a href="https://github.com/assemble/generator-assemble">Yeoman Generator</a> for <a href="http://assemble.io">Assemble</a></li>
+</ul>
+
+
+
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

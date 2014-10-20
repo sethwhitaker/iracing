@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Iracing</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Bootstrap theme -->
+    <!-- <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/theme.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../dist/index.html"><img src="/assets/img/header_logo_small.png"></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <!-- you can exclude pages using {{#isnt}} helper: {{#isnt data.title 'Blog'}} -->
+       
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-hover="dropdown">Series <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Seasons</li>
+            <li><a href="#">Curent Seasons</a></li>
+            <li><a href="#">Past Seasons</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Events</li>
+            <li><a href="#">Results</a></li>
+            <li><a href="#">Watch/Ghost/Crew/Spot</a></li>
+            <li><a href="#">Replays</a></li>
+            <li><a href="#">Season Calendar</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-hover="dropdown">Hosted <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Races</li>
+            <li><a href="">Join a Race</a></li>
+            <li><a href="">Host a Race</a></li>
+            <li><a href="">Hosted Results</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Tournaments</li>
+            <li><a href="">Host a Tournament Race</a></li>
+            <li><a href="">Tournament Results</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Leagues</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-hover="dropdown">Cars & Tracks <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Cars</li>
+            <li><a href="#">Oval Cars</a></li>
+            <li><a href="#">Road Cars</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Tracks</li>
+            <li><a href="#">Tracks</a></li>
+            <li><a href="#">Tech Tracks</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-hover="dropdown">myRacing <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Racer Profile</li>
+            <li><a href="#">myProfile</a></li>
+            <li><a href="#">Awards</a></li>
+            <li><a href="#">Certificates</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Stats</li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Drivers</a></li>
+            <li><a href="#">Regional</a></li>
+            <li><a href="#">World Records</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Friends</li>
+            <li><a href="#">myRacers</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Customize</li>
+            <li><a href="#">Customize Car(s)</a></li>
+            <li><a href="#">Customize Helmet</a></li>
+            <li><a href="#">Customize Suit</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Forum</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="http://google.com" class="dropdown-toggle" data-hover="dropdown">Account & Support <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Account</li>
+            <li><a href=""><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-credit-card"></span> Account Recharge</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-shopping-cart"></span> View Cart</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-tags"></span> Promotions</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Support</li>
+            <li><a href=""><span class="glyphicon glyphicon-question-sign"></span> Support</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-info-sign"></span> FAQs</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-exclamation-sign"></span> File Protest</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-file"></span> Documents & Tools</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
+            <li class="divider"></li>
+            <li><a href=""><span class="glyphicon glyphicon-off"></span> Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+
+    <div class="container" role="main">
+
+      
+<div class="row">
+  <div class="col-md-6">
+    <p><img src="/assets/img/header_logo.png"></p>
+  </div>
+  <div class="col-md-4 col-md-offset-2">
+    <div class="class-module class-a">
+      <img src="/assets/img/helmet.png">
+      <span>Seth Whitaker: iRating 3494 | A 4.50</span>
+    </div>
+  </div>
+</div>
+
+
+<div class="panel panel-default">
+  <div class="panel-heading clearfix">
+    <h2 class="panel-title pull-left">Race Sign Up</h2>
+    <div class="btn-group pull-right">
+      <a href="#" class="btn btn-sm btn-success">Race</a>
+      <a href="#" class="btn btn-sm btn-default">Test</a>
+    </div>
+  </div>
+  <div class="panel-body race-panels">
+    <div class="race-panel">
+      <h4 class="race-panel-title">Series</h4>
+      <p class="text-center"><img src="/assets/img/series.jpg" alt=""></p>
+      <form action="">
+        <div class="form-group">
+          <select class="form-control input-sm">
+            <optgroup label="Eligible Series">
+              <option disabled=""></option>
+              <option disabled="">Counts Towards Promotion (MPR)</option>
+              <option disabled="">• Oval</option>
+              <option value="0" disabled="">No matching series</option>
+              <option disabled="">• Road</option>
+              <option value="0" disabled="">No matching series</option>
+              <option disabled=""></option>
+              <option disabled="">Does Not Count Towards Promotion</option>
+              <option disabled="">• Oval</option>
+              <option value="1126">Carburetor Cup</option>
+              <option value="1078">NASCAR iRacing Series - Fixed</option>
+              <option value="1087">NASCAR iRacing Series - Open</option>
+              <option disabled="">• Road</option>
+              <option value="1183">13th Week Mazda Cup</option>
+              <option value="1190">Road Warrior Series</option>
+              <option disabled=""></option>
+            </optgroup>
+            <optgroup label="Ineligible Series">
+              <option disabled="">• Oval</option>
+              <option value="1076">NASCAR PEAK Antifreeze Series</option>
+              <option disabled="">• Road</option>
+              <option value="1077">iWCGPS</option>
+            </optgroup>
+          </select>
+        </div>
+      </form>
+      <p class="text-center"><small>
+        <a href="#">Sessions</a> |
+        <a href="#">Schedule</a> |
+        <a href="#">Stats</a> |
+        <a href="#">Results</a>
+      </small></p>
+    </div>
+
+    <div class="race-panel">
+      <h4 class="race-panel-title">Track</h4>
+      <p class="text-center"><img src="/assets/img/track.gif" alt=""></p>
+      <p class="text-center">Indianapolis Motor Speedway</p>
+      <p class="text-center"><small>80 laps, Rolling start</small></p>
+    </div>
+
+    <div class="race-panel">
+      <h4 class="race-panel-title">Car</h4>
+      <p class="text-center"><img src="/assets/img/car.png" alt=""></p>
+      <form action="">
+        <div class="form-group">
+          <select class="form-control input-sm">
+            <option value="#">Chevrolet SS-Gen6</option>
+            <option value="#">Ford Fusion-Gen6</option>
+            <option value="#">Toyota Camry-Gen6</option>
+          </select>
+        </div>
+      </form>
+      <p class="text-center"><small>
+        <a href="#">Car Info</a> |
+        <a href="#">Paint</a>
+      </small></p>
+    </div>
+
+    <div class="race-panel">
+      <h4 class="race-panel-title">Sessions</h4>
+      <div class="btn-group btn-group-justified" data-toggle="buttons">
+        <label class="btn btn-sm btn-default active">
+          <input type="radio" name="options" id="option1" checked>Race
+        </label>
+        <label class="btn btn-sm btn-default">
+          <input type="radio" name="options" id="option2">Qual
+        </label>
+        <label class="btn btn-sm btn-default">
+          <input type="radio" name="options" id="option3">TT
+        </label>
+        <label class="btn btn-sm btn-default">
+          <input type="radio" name="options" id="option3">Pract
+        </label>
+      </div>
+      <a href="#" class="list-group-item list-group-item-success">01:00 GMT  [09:00 pm] <span class="badge">14</span></a>
+      <a href="#" class="list-group-item disabled">02:00 GMT  [10:00 pm] <span class="badge">0</span></a>
+      <a href="#" class="list-group-item disabled">03:00 GMT  [11:00 pm] <span class="badge">0</span></a>
+      <a href="#" class="list-group-item disabled">04:00 GMT  [12:00 pm] <span class="badge">0</span></a>
+      <div class="btn-group btn-group-justified">
+        <a href="#" class="btn btn-sm btn-success btn-block">Join</a>
+        <a href="#" class="btn btn-sm btn-default btn-block">Test</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">July 22, 2014 - New Discount Program</h3>
+      </div>
+      <div class="panel-body">
+        <h4>Interested in a New Car or Track?</h4>
+        <p>Take advantage of these great volume discount options!</p>
+        <p><strong>10% Bulk Purchase Discount: </strong> Purchase/License any three to five pieces of content (cars/tracks) at once and receive 10% off the total.</p>
+        <p><strong>20% Bulk Purchase Discount: </strong> Purchase/License any six or more pieces of content (cars/tracks) at once and receive 20% off the total.</p>
+        <p><strong>25% Loyalty Discount: </strong>Purchase/License any 40 pieces of paid content (cars or tracks) and receive a 25% discount from that point forward on future content purchases. In other words, once you own any 40 pieces of paid content, every content purchase after that is automatically discounted by 25%.</p>
+        <p><strong>30% Loyalty Discount: </strong>Purchase/License all content or all remaining content and receive 30% off the total. Affectionately known as the 100% club by our members.</p>
+        <p>All discounts are automatically calculated at checkout. This offer may not be combined with any other discount or promotion. All discounts are calculated either including or excluding preorders. All of our volume discount programs exclude Tech Tracks.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">July 15, 2014 - Week 13 is Upon Us!</h3>
+      </div>
+      <div class="panel-body">
+        <p> Week 13 is upon us.  Again. As always, it’s a final chance for iRacers from Rookie to Class B to ascend to the next rung on the license ladder in time for Season 3 . . . and time for iRacers of all stripes and licenses to have oodles of fun.</p>
+        <p>Road and oval racers alike have an opportunity to advance to the next license level in two official series. On the road side there’s the Mazda Cup featuring the Mazda MX-5 Cup with 20 lap races at Okayama (short and long), Charlotte (road), Mazda Laguna Seca Raceway, Summit Point (full course and Jefferson reverse) and Lime Rock. Oval racers can tackle the Legends Cup with 30 lappers in the ’34 Legends Ford at South Boston, Thompson, Oxford Plains, Charlotte (Legends) and Lanier National Speedway.</p>
+        <p>Safety Ratings and iRatings are in effect in these two official series, offering competitors an opportunity to boost their license ratings before promotions for Season 3 are finalized at week’s end. Likewise, rookies who have yet to complete the category-specific minimum participation requirements for graduation to a D license (two official races or four time trials in each category) can do so in Week 13.</p>
+        <p>Week 13’s unofficial competition sees the return of the Carburetor Cup at Talladega Superspeedway featuring the Gen6 Chevy SS, Ford Fusion and Toyota Camry.</p>
+        <p> Want more? How about 144 hours of fun? For the arithmetically-challenged, that breaks down to six (very) different 24 Hours of Fun series.</p>
+        <p>When the build is released, 24 Hours of Fun I will see the Nationwide Ford Mustang and the Chevrolet Camaro in 50 lap races at the updated Phoenix International Raceway.</p>
+        <p>Likewise, when the new build is available, 24 Hours of Fun II will pit the GT3 cars (BMW, McLaren and RUF-Track) for 22 lap events on our newest road course, historic Donington Park Racing Circuit.</p>
+        <p>The 24 Hours of Fun III has our fastest open wheel cars – the Williams-Toyota FW31 and both the IndyCar Dallara and Dallara DW12 – tackling the Daytona road course in 25 lap races.</p>
+        <p>The 24 Hours of Fun IV brings the Star Mazda to Lucas Oil Raceway for 50 lappers in an online version of the famed Night Before the 500.</p>
+        <p>24 Hours of Fun V? That would be something completely different, as in the SpecRacer Ford for 15 laps around Irwindale Speedway’s figure 8 layout.</p>
+        <p>And last but by no means least, 24 Hours of Fun VI boasts 46 car fields of Mazda MX-5 Cups and Roadsters, Pontiac Solstices, ’34 Legend-Fords and SpecRacer Fords at Laguna Seca in 25 lap events guaranteed to put the “mixed” in mixed class sim racing.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

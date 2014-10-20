@@ -1,0 +1,118 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: #f5f5f5 url(/assets/img/bg.jpg) no-repeat top center fixed;
+  background-size: cover;
+}
+img{
+  max-width: 100%;
+}
+.navbar-form .input-group-btn,
+.navbar-form .input-group-addon {
+  width: auto;
+}
+.navbar-brand img{
+  width:35px;
+  margin-top:-5px;
+}
+
+/*tabs bottom */
+.tab-content {
+  padding:10px;
+  border:1px solid #ddd;
+  border-bottom:0px;
+}
+.nav-tabs-bottom {
+  border-bottom: 0px;
+  border-top: 1px solid #ddd;
+}
+.nav-tabs-bottom > li {
+  margin-bottom:0;
+  margin-top:-1px;
+}
+
+.nav-tabs-bottom > li > a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 20px;
+  border: 1px solid transparent;
+  -moz-border-radius:0px;
+  -webkit-border-radius:0px;
+  border-radius:0px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.nav-tabs-bottom > .active > a, .nav-tabs-bottom > .active > a:hover, .nav-tabs-bottom > .active > a:focus {
+  color: #555555;
+  cursor: default;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-top-color: transparent;
+}
+
+
+
+
+.class-module{
+  color:white;
+  font-weight: bold;
+  border:1px solid #333;
+  padding:5px;
+  border-radius:5px;
+}
+.class-wc{
+  background: silver url(/assets/img/class-tile.png) 0px -348px repeat scroll;
+}
+.class-pro{
+  background: black url(/assets/img/class-tile.png) 0px -289px repeat scroll;
+}
+.class-a{
+  background: blue url(/assets/img/class-tile.png) 0px -232px repeat scroll;
+}
+.class-b{
+  background: green url(/assets/img/class-tile.png) 0px -174px repeat scroll;
+}
+.class-c{
+  background: yellow url(/assets/img/class-tile.png) 0px -116px repeat scroll;
+}
+.class-d{
+  background: orange url(/assets/img/class-tile.png) 0px -58px repeat scroll;
+}
+.class-rookie{
+  background: red url(/assets/img/class-tile.png) 0px 0px repeat scroll;
+}
+
+.content{
+  margin: 15px 0 30px;
+  border-radius:5px;
+  padding:30px 15px 15px;
+  background-color: white;
+  /*background-color: rgba(0,0,0,0.85);*/
+  /*background-color: rgba(255,255,255,0.9);*/
+}
+
+.race-panels{
+  display: flex;
+  align-items: stretch;
+  padding:0;
+}
+.race-panel{
+  flex-grow:1;
+  flex-shrink: 0;
+  width:1px;
+  padding: 0px 20px 20px;
+  border-right:1px solid #ddd;
+}
+.race-panel:last-child{
+  border-right:none;
+}
+.race-panel-title{
+  padding:7px 20px;
+  background:#444;
+  color:white;
+  margin:0 -20px 20px;
+}
