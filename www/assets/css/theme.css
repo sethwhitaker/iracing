@@ -55,6 +55,13 @@ img{
 }
 
 
+.vert-align{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 
 .class-module{
@@ -63,6 +70,17 @@ img{
   border:1px solid #333;
   padding:5px;
   border-radius:5px;
+  width:300px;
+  height: 60px;
+  float: right
+}
+.class-module p{
+  margin:0;
+}
+.class-module__helmet{
+  margin-right:10px;
+  margin-top:-5px;
+  float: left;
 }
 .class-wc{
   background: silver url(/assets/img/class-tile.png) 0px -348px repeat scroll;
